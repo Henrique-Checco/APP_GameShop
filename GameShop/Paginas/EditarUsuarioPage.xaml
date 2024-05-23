@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GameShop.Paginas.EditarUsuarioPage"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#000000"
+             Title="EditarUsuarioPage">
+    
+    <VerticalStackLayout Margin="15"
+                 Padding="15"
+                 Spacing="5">
+
+        <Image HeightRequest="55" WidthRequest="55" Source="controller" Grid.ColumnSpan="1"/>
+        
+        <Label Text="Novo por aqui ?"
+       TextColor="White"
+       VerticalOptions="Center"
+       HorizontalOptions="Center"
+       FontSize="35"
+       FontFamily="JockeyOne"/>
+
+        <Label Text="Registre-se agora mesmo!"
+               TextColor="White"
+               HorizontalOptions="Center"/>
+
+        <Label x:Name="lblNome"
+       Text="Nome"
+       TextColor="White"
+       FontSize="Subtitle"/>
+
+        <Entry x:Name="txtNome"
+           Text="{Binding Nome}"
+           BackgroundColor="#282727"
+           Placeholder="Digite seu Nome" 
+           Keyboard="Text"
+           TextColor="White"/>
+
+        <Label  x:Name="lblEmail"
+                Text="Email"
+                TextColor="White"
+                FontSize="Subtitle"/>
+
+        <Entry  x:Name="txtEmail"
+                Text="{Binding Email}"
+                BackgroundColor="#282727"
+                Placeholder="Digite seu Email" 
+                Keyboard="Email"
+                TextColor="White"/>
+
+        <Label x:Name="lblSenha"
+       Text="Senha"
+       TextColor="White"
+       FontSize="Subtitle"/>
+
+        <Entry  x:Name="txtSenha"
+                Text="{Binding Senha}"
+                BackgroundColor="#282727"
+                Placeholder="Digite sua Senha"
+                IsPassword="True"
+                TextColor="White"/>
+
+        <Button Text="Criar conta" 
+        TextColor="White" 
+        WidthRequest="250" 
+        x:Name="btnCadastrar"
+        Clicked="btnCadastrar_Clicked"  
+        BackgroundColor="#70A3D2"
+        Padding="0,0,0,0"
+        Margin="10"
+        FontSize="20"
+        FontFamily="JockeyOne"/>
+
+        <Button Text="Voltar" 
+            TextColor="White" 
+            WidthRequest="250" 
+            x:Name="btnVoltar"
+            Clicked="btnVoltar_Clicked"
+            BackgroundColor="#000000"
+            FontSize="20"
+            FontFamily="JockeyOne"/>
+
+
+    </VerticalStackLayout>
+</ContentPage>

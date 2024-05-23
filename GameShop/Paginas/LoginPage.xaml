@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="GameShop.Paginas.LoginPage"
+             BackgroundColor="#000000"
+             NavigationPage.HasNavigationBar="False"
+             Title="LoginPage">
+    <ContentPage.Behaviors>
+        <toolkit:StatusBarBehavior StatusBarColor="#000000"/>
+    </ContentPage.Behaviors>
+
+
+    <VerticalStackLayout Margin="15"
+                     Padding="15"
+                     Spacing="5">
+
+        <Grid ColumnDefinitions=".45*, .55*">
+            <Image HeightRequest="55" WidthRequest="55" Source="controller" Grid.ColumnSpan="1"/>
+            <Label Text="GameShop"
+                   TextColor="White"
+                   Padding="10,10,10,10"
+                   FontSize="25"
+                   FontFamily="JockeyOne"
+                   Grid.Column="2"/>
+        </Grid>
+        
+        
+        <Image HeightRequest="150" WidthRequest="150"/>
+        <Label x:Name="lblEmail"
+           Text="Email"
+           TextColor="White"
+           FontSize="Subtitle"/>
+
+        <Entry  x:Name="txtEmail" 
+                Placeholder="Digite seu Email" 
+                Keyboard="Email"
+                TextColor="White"
+                BackgroundColor="#282727"/>
+
+        <Label x:Name="lblSenha"
+           Text="Senha"
+           TextColor="White"
+           FontSize="Subtitle"/>
+
+        <Entry x:Name="txtSenha"
+           Placeholder="Digite seu Senha"
+           IsPassword="True"
+           TextColor="White"
+           BackgroundColor="#282727"/>
+
+        <Button Text="Login"
+                FontSize="20"
+                TextColor="White" 
+                WidthRequest="250"
+                Padding="0,0,0,0"
+                Margin="50"
+                FontFamily="JockeyOne"
+                x:Name="btnEntrar"
+                Clicked="btnEntrar_Clicked"
+                BackgroundColor="#70A3D2"/>
+
+        <Image HeightRequest="100" WidthRequest="100"/>
+        <Button Text="Criar Conta"
+                FontSize="20"
+                FontFamily="JockeyOne"
+                TextColor="white" 
+                WidthRequest="250" 
+                x:Name="btnRegistrar"
+                Clicked="btnRegistrar_Clicked"
+                BackgroundColor="#000000"/>
+
+
+    </VerticalStackLayout>
+</ContentPage>

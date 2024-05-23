@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GameShop.Paginas.Infamous"
+             BackgroundColor="Black"
+             NavigationPage.HasNavigationBar="False"
+             Title="Infamous">
+    <VerticalStackLayout>
+        <Image Source="infamous" Margin="0,50,0,30"/>
+        <Image Source="playstation"
+               WidthRequest="40"
+               HeightRequest="40"/>
+
+        <Label Text="Infamous"
+               TextColor="White"
+                FontSize="30"
+                FontFamily="JockeyOne"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"/>
+
+        <Label Text="Em Infamous, o protagonista Cole MacGrath, um entregador ciclista apanhado no centro de uma explosão que devasta vários quarteirões da cidade de Empire City. Com a explosão a cidade mergulha num caos, enquanto Cole descobre que ganhou super poderes, mas você decide como usá-los, transformará Cole em um herói ou em um Infame?"
+               TextColor="White"
+                FontSize="15"
+                FontFamily="JockeyOne"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Padding="10"/>
+
+        <Label Text="Disponível em PS3"
+               TextColor="White"
+                FontSize="20"
+                FontFamily="JockeyOne"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="0,30,0,0"/>
+
+        <Label Text="R$100,00"
+               TextColor="White"
+                FontSize="30"
+                FontFamily="JockeyOne"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="0,10,0,0"/>
+
+        <Label Text="*Somente Mídia Física"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               Margin="0,30,0,0"
+               TextColor="White"
+               FontFamily="JockeyOne"
+               FontSize="30"/>
+    </VerticalStackLayout>
+</ContentPage>

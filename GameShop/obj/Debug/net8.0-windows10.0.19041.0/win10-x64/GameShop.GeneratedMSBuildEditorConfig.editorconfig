@@ -1,0 +1,121 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GameShop
+build_property.ProjectDir = C:\Users\SENAI3EM\Documents\Maui\GameShop\GameShop\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/SENAI3EM/Documents/Maui/GameShop/GameShop/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GameShop.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/SENAI3EM/Documents/Maui/GameShop/GameShop/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GameShop.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/SENAI3EM/Documents/Maui/GameShop/GameShop/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GameShop.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/SENAI3EM/Documents/Maui/GameShop/GameShop/Paginas/Carrinho.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GameShop.Paginas.Carrinho.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\Carrinho.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\Carrinho.xaml
+
+[C:/Users/SENAI3EM/Documents/Maui/GameShop/GameShop/Paginas/EditarUsuarioPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GameShop.Paginas.EditarUsuarioPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\EditarUsuarioPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\EditarUsuarioPage.xaml
+
+[C:/Users/SENAI3EM/Documents/Maui/GameShop/GameShop/Paginas/Forza.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GameShop.Paginas.Forza.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\Forza.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\Forza.xaml
+
+[C:/Users/SENAI3EM/Documents/Maui/GameShop/GameShop/Paginas/Ghost.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GameShop.Paginas.Ghost.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\Ghost.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\Ghost.xaml
+
+[C:/Users/SENAI3EM/Documents/Maui/GameShop/GameShop/Paginas/God.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GameShop.Paginas.God.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\God.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\God.xaml
+
+[C:/Users/SENAI3EM/Documents/Maui/GameShop/GameShop/Paginas/Halo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GameShop.Paginas.Halo.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\Halo.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\Halo.xaml
+
+[C:/Users/SENAI3EM/Documents/Maui/GameShop/GameShop/Paginas/Home.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GameShop.Paginas.Home.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\Home.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\Home.xaml
+
+[C:/Users/SENAI3EM/Documents/Maui/GameShop/GameShop/Paginas/Infamous.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GameShop.Paginas.Infamous.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\Infamous.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\Infamous.xaml
+
+[C:/Users/SENAI3EM/Documents/Maui/GameShop/GameShop/Paginas/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GameShop.Paginas.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\LoginPage.xaml
+
+[C:/Users/SENAI3EM/Documents/Maui/GameShop/GameShop/Paginas/Mario.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GameShop.Paginas.Mario.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\Mario.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\Mario.xaml
+
+[C:/Users/SENAI3EM/Documents/Maui/GameShop/GameShop/Paginas/Notificacoes.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GameShop.Paginas.Notificacoes.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\Notificacoes.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\Notificacoes.xaml
+
+[C:/Users/SENAI3EM/Documents/Maui/GameShop/GameShop/Paginas/Perfil.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GameShop.Paginas.Perfil.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\Perfil.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\Perfil.xaml
+
+[C:/Users/SENAI3EM/Documents/Maui/GameShop/GameShop/Paginas/Pesquisa.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GameShop.Paginas.Pesquisa.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas\Pesquisa.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas\Pesquisa.xaml
+
+[C:/Users/SENAI3EM/Documents/Maui/GameShop/GameShop/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GameShop.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/SENAI3EM/Documents/Maui/GameShop/GameShop/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GameShop.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

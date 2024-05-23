@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GameShop.Paginas.Perfil"
+             BackgroundColor="#000000"
+             NavigationPage.HasNavigationBar="False"
+             Title="Perfil">
+    <VerticalStackLayout>
+        <Label 
+            Text="Meu Perfil"
+            FontFamily="JockeyOne"
+            TextColor="White"
+            FontSize="40"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Border BackgroundColor="White"></Border>
+
+        <ImageButton x:Name="fotoPerfil"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center"
+                     Margin="10"
+                     CornerRadius="100"
+                     HeightRequest="200"
+                     WidthRequest="200"
+                     Aspect="AspectFill"
+                     Source="account.svg"
+                     />
+
+        <Label Text="Olá Seja Bem-Vindo!"
+               FontSize="Title"
+               TextColor="White"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontFamily="JockeyOne"
+               Padding="0,60,0,0"
+            />
+
+        <Label Text="Aqui você pode aproveitar as novidades do mundo dos games. Compre consoles e jogos com os melhores descontos, veja quais são os mais vendidos e quais as tendências do momento."
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               TextColor="White"
+               Margin="20"
+               FontFamily="JockeyOne"/>
+
+
+        <FlexLayout Direction="Row" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,150,0,0">
+            <Button Text="Logout"
+                    FontFamily="JockeyOne"
+                    TextColor="White"
+                    BackgroundColor="Black"
+                    FontSize="20"
+                    WidthRequest="100"
+                    HeightRequest="50"
+                    x:Name="btnLogout"
+                    Clicked="btnLogout_Clicked"></Button>
+        </FlexLayout>
+
+        <FlexLayout Direction="Row" JustifyContent="SpaceAround" HorizontalOptions="EndAndExpand" Margin="0,3,0,0">
+            <Button ImageSource="house"
+                    BackgroundColor="#000000"
+                    WidthRequest="60"
+                    HeightRequest="60"
+                    x:Name="btnHome"
+                    Clicked="btnHome_Clicked"/>
+
+            <Button ImageSource="pesquisa"
+                    BackgroundColor="#000000"
+                    WidthRequest="60"
+                    HeightRequest="60"
+                    x:Name="btnPesquisa"
+                    Clicked="btnPesquisa_Clicked"/>
+
+            <Button ImageSource="tag"
+                    BackgroundColor="#000000"
+                    WidthRequest="60"
+                    HeightRequest="60"
+                    x:Name="btnCart"
+                    Clicked="btnCart_Clicked"/>
+
+            <Button ImageSource="person"
+                    BackgroundColor="#000000"
+                    WidthRequest="60"
+                    HeightRequest="60"
+                    x:Name="btnPerson"
+                    Clicked="btnPerson_Clicked"/>
+        </FlexLayout>
+
+
+    </VerticalStackLayout>
+</ContentPage>

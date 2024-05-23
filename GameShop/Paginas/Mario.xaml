@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GameShop.Paginas.Mario"
+             BackgroundColor="Black"
+             NavigationPage.HasNavigationBar="False"
+             Title="Mario">
+    <VerticalStackLayout>
+        <Image Source="mario" Margin="0,50,0,30"/>
+        <Image Source="nintendo"
+       WidthRequest="40"
+       HeightRequest="40"/>
+
+        <Label Text="Super Mario Odyssey"
+       FontSize="30"
+       TextColor="White"
+       FontFamily="JockeyOne"
+       HorizontalOptions="Center"
+       VerticalOptions="Center"/>
+
+        <Label Text="O Mario 3D mais ambicioso de todos os tempos, Super Mario Odyssey leva o encanador em uma viagem espacial para novamente resgatar a Princesa Peach das garras de Bowser, trazendo diversos mundos variados para você explorar livremente, cada um cheio de segredos e mecânicas únicas."
+       FontSize="15"
+       TextColor="White"
+       FontFamily="JockeyOne"
+       HorizontalOptions="Center"
+       VerticalOptions="Center"
+       Padding="10"/>
+
+        <Label Text="Disponível em Nintendo Switch"
+               TextColor="White"
+               FontSize="20"
+               FontFamily="JockeyOne"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               Margin="0,30,0,0"/>
+
+        <Label Text="R$300,00"
+       FontSize="30"
+       TextColor="White"
+       FontFamily="JockeyOne"
+       HorizontalOptions="Center"
+       VerticalOptions="Center"
+       Margin="0,10,0,0"/>
+
+        <Button WidthRequest="170"
+        HeightRequest="60"
+        Margin="0,30,0,0"
+        Text="Comprar"
+        FontAttributes="Bold"
+        TextColor="White"
+        BackgroundColor="#70A3D2"
+        FontFamily="JockeyOne"
+        FontSize="30"
+        x:Name="btnComprar2"
+        Clicked="btnComprar2_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

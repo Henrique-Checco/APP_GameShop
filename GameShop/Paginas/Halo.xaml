@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GameShop.Paginas.Halo"
+             BackgroundColor="Black"
+             NavigationPage.HasNavigationBar="False"
+             Title="Halo">
+    <VerticalStackLayout>
+        <Image Source="halo" Margin="0,50,0,30"/>
+        <Image Source="xbox"
+               WidthRequest="40"
+               HeightRequest="40"/>
+
+        <Label Text="Halo 4"
+               TextColor="White"
+                FontSize="30"
+                FontFamily="JockeyOne"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"/>
+
+        <Label Text="Testemunhe o retorno triunfante do Master Chief para enfrentar um mal antigo que anseia por vingança e aniquilação. Após a queda em um mundo misterioso, com novos inimigos e tecnologias letais para encarar, o universo nunca mais será o mesmo."
+                FontSize="15"
+               TextColor="White"
+                FontFamily="JockeyOne"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Padding="10"/>
+
+        <Label Text="Disponível em Xbox 360, Xbox One e PC "
+                FontSize="20"
+               TextColor="White"
+                FontFamily="JockeyOne"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="0,30,0,0"/>
+
+        <Label Text="R$50,00"
+               TextColor="White"
+                FontSize="30"
+                FontFamily="JockeyOne"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Margin="0,10,0,0"/>
+
+        <Button WidthRequest="170"
+        HeightRequest="60"
+        Margin="0,30,0,0"
+        Text="Comprar"
+        FontAttributes="Bold"
+        TextColor="White"
+        BackgroundColor="#70A3D2"
+        FontFamily="JockeyOne"
+        FontSize="30"
+        x:Name="btnComprar3"
+        Clicked="btnComprar3_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

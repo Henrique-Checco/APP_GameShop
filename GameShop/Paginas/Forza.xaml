@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GameShop.Paginas.Forza"
+             BackgroundColor="Black"
+             NavigationPage.HasNavigationBar="False"
+             Title="Forza">
+    <VerticalStackLayout>
+        <Image Source="forza" Margin="0,50,0,30"/>
+        <Image Source="xbox"
+       WidthRequest="40"
+       HeightRequest="40"/>
+
+        <Label Text="Forza Horizon 5"
+        FontSize="30"
+        TextColor="White"
+        FontFamily="JockeyOne"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"/>
+
+        <Label Text="Sua maior aventura Horizon te espera! Lidere impressionantes expedições pelo mundo aberto vibrante e em constante evolução nas terras mexicanas. Participe de corridas divertidas e sem limites enquanto pilota centenas dos melhores carros do mundo."
+        FontSize="15"
+        TextColor="White"
+        FontFamily="JockeyOne"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        Padding="10"/>
+
+        <Label Text="Disponível em Xbox One, Xbox Series e PC "
+        FontSize="20"
+        TextColor="White"
+        FontFamily="JockeyOne"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        Margin="0,30,0,0"/>
+
+        <Label Text="R$250,00"
+        TextColor="White"
+        FontSize="30"
+        FontFamily="JockeyOne"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        Margin="0,10,0,0"/>
+
+        <Button WidthRequest="170"
+        HeightRequest="60"
+        Margin="0,30,0,0"
+        Text="Comprar"
+        FontAttributes="Bold"
+        TextColor="White"
+        BackgroundColor="#70A3D2"
+        FontFamily="JockeyOne"
+        FontSize="30"
+        x:Name="btnComprar5"
+        Clicked="btnComprar5_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,49 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:GameShop"
+             xmlns:paginas="clr-namespace:GameShop.Paginas"
+             x:Class="GameShop.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="tituloCor">#FFFFFF</Color>
+            <Color x:Key="backgroundCor">#000000</Color>
+            <Style TargetType="ShellContent" x:Key="TituloStyle">
+                <Setter Property="Shell.TitleColor" Value="{StaticResource tituloCor}"/>
+                <Setter Property="Shell.BackgroundColor" Value="{StaticResource backgroundCor}"/>
+            </Style>
+
+            <Color x:Key="tabBarBackgroundColor">#000000</Color>
+            <!-- Defina a cor desejada aqui -->
+            <Style TargetType="TabBar" x:Key="CustomTabBarStyle">
+                <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource tabBarBackgroundColor}" />
+            </Style>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+
+    <Application.MainPage>
+        <Shell>
+            <TabBar x:Name="MenuTabs" Style="{StaticResource CustomTabBarStyle}">
+                <Tab Icon="home.svg">
+                    <ShellContent ContentTemplate="{DataTemplate paginas:Home}" Style="{StaticResource TituloStyle}"/>
+                </Tab>
+
+                <Tab Icon="pesquisa.svg">
+                    <ShellContent ContentTemplate="{DataTemplate paginas:Pesquisa}" Style="{StaticResource TituloStyle}"/>
+                </Tab>
+
+                <Tab Icon="car.svg">
+                    <ShellContent ContentTemplate="{DataTemplate paginas:Carrinho}" Style="{StaticResource TituloStyle}"/>
+                </Tab>
+
+                <Tab Icon="perfil.svg">
+                    <ShellContent ContentTemplate="{DataTemplate paginas:Perfil}" Style="{StaticResource TituloStyle}"/>
+                </Tab>
+            </TabBar>
+        </Shell>
+    </Application.MainPage>
+</Application>
