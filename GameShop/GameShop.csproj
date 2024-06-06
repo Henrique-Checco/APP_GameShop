@@ -57,6 +57,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiImage Remove="Resources\Images\home.svg" />
 	  <MauiImage Remove="Resources\Images\spiderman.svg" />
 	</ItemGroup>
 
@@ -68,6 +69,7 @@
 	  <None Remove="Resources\Images\ghost.svg" />
 	  <None Remove="Resources\Images\god.svg" />
 	  <None Remove="Resources\Images\halo.svg" />
+	  <None Remove="Resources\Images\home.svg" />
 	  <None Remove="Resources\Images\house.svg" />
 	  <None Remove="Resources\Images\infamous.svg" />
 	  <None Remove="Resources\Images\mario.svg" />

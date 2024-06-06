@@ -24,6 +24,9 @@ public partial class Pesquisa : ContentPage
         {
             Placeholder = "Pesquisar...",
             HorizontalOptions = LayoutOptions.FillAndExpand,
+            TextColor = Color.FromHex("#FFFFFF"),
+            PlaceholderColor = Color.FromHex("#FFFFFF"),
+            BackgroundColor = Color.FromHex("#282727"),
         };
 
         searchBar.TextChanged += (sender, e) =>

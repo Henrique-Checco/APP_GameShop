@@ -24,7 +24,7 @@
                      HeightRequest="200"
                      WidthRequest="200"
                      Aspect="AspectFill"
-                     Source="account.svg"
+                     Source="{Binding Foto, TargetNullValue='account.svg'}"
                      />
 
         <Label Text="Olá Seja Bem-Vindo!"

@@ -1,12 +1,17 @@
-
+using GameShop.Model;
 
 namespace GameShop.Paginas;
 
+
 public partial class Perfil : ContentPage
 {
+    private Usuario _usuario;
 	public Perfil()
 	{
 		InitializeComponent();
+
+        _usuario = App.Usuario;
+        this.BindingContext = _usuario;
 
         fotoPerfil.Clicked += async (sender, e) =>
         {
@@ -15,21 +20,12 @@ public partial class Perfil : ContentPage
                 var file = await MediaPicker.PickPhotoAsync();
                 if (file != null)
                 {
-                    var stream = await file.OpenReadAsync();
+                    var filePath = file.FullPath;
 
-                    // Converta a imagem para um stream de bytes
-                    byte[] imageData;
-                    using (var memoryStream = new MemoryStream())
-                    {
-                        await stream.CopyToAsync(memoryStream);
-                        imageData = memoryStream.ToArray();
-                    }
+                    fotoPerfil.Source = ImageSource.FromFile(filePath);
 
-                    // Crie uma ImageSource a partir do stream de bytes
-                    ImageSource imageSource = ImageSource.FromStream(() => new MemoryStream(imageData));
-
-                    // Defina a fonte da imagem
-                    fotoPerfil.Source = imageSource;
+                    _usuario.Foto = filePath;
+                    await App.BancoDados.UsuarioDataTable.SalvarUsuario(_usuario);
                 }
             }
         };
